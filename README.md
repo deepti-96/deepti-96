@@ -1,6 +1,7 @@
 # Hey, I'm Deepti 👋
 
 🎓 MS Computer Science @ Arizona State University - 4.0 GPA
+
 💼 Ex-[@oracle](https://github.com/oracle) · [@MLH](https://github.com/mlh) Open Source Fellow
 
 2 years shipping production systems at Oracle - building
