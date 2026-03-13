@@ -150,7 +150,7 @@ Distributed Systems · Data Infrastructure · Cloud-Native Architecture · Searc
 
 ---
 
-**Distributed Microservices System**
+**[Microservices Communication](https://github.com/deepti-96/Microservices-Communication)**
 `January 2022 – May 2022`
 > RabbitMQ (AMQP) · auto-discovery · scalable pub-sub
 > Fault-tolerant inter-service messaging
@@ -159,7 +159,7 @@ Distributed Systems · Data Infrastructure · Cloud-Native Architecture · Searc
 
 ---
 
-**Community Connect - Full Stack Networking Platform**
+**[Community Connect](https://github.com/deepti-96/Community-Connect)**
 `April 2023 – July 2023`
 > Real-time posts + resource sharing
 > Dynamic responsive feeds for distributed user base
