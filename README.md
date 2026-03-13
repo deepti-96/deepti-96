@@ -199,7 +199,7 @@ Distributed Systems · Data Infrastructure · Cloud-Native Architecture · Searc
 
 ---
 
-![Deepti's GitHub Stats](https://github-readme-stats.vercel.app/api?username=deepti-96&show_icons=true&theme=default&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=deepti-96&layout=compact&hide_border=true&langs_count=8)
 
 ---
 
