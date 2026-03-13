@@ -198,10 +198,6 @@ Distributed Systems · Data Infrastructure · Cloud-Native Architecture · Searc
 
 ---
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=deepti-96&layout=compact&hide_border=true&langs_count=6&hide=jupyter%20notebook,html,css,makefile,hack,dockerfile,shell,c)
-
----
-
 ## 📫 Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deepti-ravi-kumar-620145215/)
