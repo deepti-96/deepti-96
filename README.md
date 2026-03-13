@@ -1,14 +1,14 @@
 # Hey, I'm Deepti 👋
 
-🎓 MS Computer Science @ Arizona State University — 4.0 GPA
+🎓 MS Computer Science @ Arizona State University - 4.0 GPA
 💼 Ex-[@oracle](https://github.com/oracle) · [@MLH](https://github.com/mlh) Open Source Fellow
 📍 Tempe, AZ
 
-2 years shipping production systems at Oracle — building
+2 years shipping production systems at Oracle - building
 ETL pipelines, AI assistants, and reliability tooling for
 large-scale enterprise platforms.
 
-Now at ASU — building distributed systems,
+Now at ASU - building distributed systems,
 exploring cloud-native infrastructure,
 and shipping production-grade systems.
 
@@ -80,46 +80,46 @@ Distributed Systems · Data Infrastructure · Cloud-Native Architecture · Searc
 
 ## 💼 Experience
 
-**[@oracle](https://github.com/oracle) — Associate Applications Developer**
+**[@oracle](https://github.com/oracle) - Associate Applications Developer**
 `July 2023 – August 2025` · Hyderabad, India
 
 - Designed and optimized ETL pipelines using ODI + Jenkins
-  — **25% improvement** in data load performance
+  - **25% improvement** in data load performance
 - Built fault-monitoring dashboards with OAS
-  — **35% faster** production issue resolution
-- Developed **SahAI** — AI chatbot using OCI GenAI, RAG,
-  and vector search — **40% fewer** support tickets,
+  - **35% faster** production issue resolution
+- Developed **SahAI** - AI chatbot using OCI GenAI, RAG,
+  and vector search - **40% fewer** support tickets,
   **30% CSAT improvement**, Honorable Mention Oracle Hackathon 2024,
   slated for Oracle product roadmap
 - Removed redundant data flows, automated schema validation
-  — **40% reduction** in ETL complexity
+  - **40% reduction** in ETL complexity
 - Resolved **25+ high-impact** production issues
-- Led mentoring program — upskilled **50+ engineers**
+- Led mentoring program - upskilled **50+ engineers**
 
-**[@oracle](https://github.com/oracle) — Project Intern**
+**[@oracle](https://github.com/oracle) - Project Intern**
 `January 2023 – June 2023` · Hyderabad, India
 
 - Enhanced ETL workflows with ODI, GoldenGate, PL/SQL
   for **10+ global utility clients**
 - Implemented CI/CD with Jenkins + Java + Bash
-  — **25% improvement** in pipeline reliability
-- Spearheaded Alumni Connect — mentored **25+ interns**,
+  - **25% improvement** in pipeline reliability
+- Spearheaded Alumni Connect - mentored **25+ interns**,
   **30% improvement** in team productivity
 
-**[@MLH](https://github.com/mlh) — Open Source Fellow**
+**[@MLH](https://github.com/mlh) - Open Source Fellow**
 `February 2022 – April 2022` · Remote
 
 - Designed and implemented a custom **GitHub Actions CI pipeline**
   to automatically compute and cache OpenSSF security scores
   for repositories fetched via the npm package `repo-report`
-  — owned end-to-end CI/CD including job orchestration,
+  - owned end-to-end CI/CD including job orchestration,
   caching strategy, and GitHub API integration
-- Contributed to **Repo-Report-Cache** — a standalone npm package
-  extending `repo-report` with caching capabilities — gaining
+- Contributed to **Repo-Report-Cache** - a standalone npm package
+  extending `repo-report` with caching capabilities - gaining
   hands-on experience with npm ecosystem packaging,
   versioning, and open-source distribution workflows
 - Collaborated under mentorship of **Jordan Harband**
-  (TC39 member) alongside fellow engineers — navigating
+  (TC39 member) alongside fellow engineers - navigating
   open-source code review standards, API design contracts,
   and community tooling development with advanced
   JavaScript patterns
@@ -128,7 +128,7 @@ Distributed Systems · Data Infrastructure · Cloud-Native Architecture · Searc
 
 ## 🚀 Projects
 
-**[PhishNChips](https://github.com/deepti-96/PhishNChips-Distributed-Phishing-Intelligence-Network) — Geo-Distributed Phishing Intelligence**
+**[PhishNChips](https://github.com/deepti-96/PhishNChips-Distributed-Phishing-Intelligence-Network) - Geo-Distributed Phishing Intelligence**
 `October 2025 – December 2025`
 > 3-node Elasticsearch cluster (sharding + RF=2 replication)
 > US · EU · Asia regions with distributed query routing
@@ -140,8 +140,8 @@ Distributed Systems · Data Infrastructure · Cloud-Native Architecture · Searc
 
 ---
 
-**SahAI — AI Assistant for Oracle OUAF Edge Apps**
-`Oracle IGIU Hackathon 2024 — Honorable Mention`
+**SahAI - AI Assistant for Oracle OUAF Edge Apps**
+`Oracle IGIU Hackathon 2024 - Honorable Mention`
 > OCI Generative AI · RAG pipeline · vector search
 > Natural language queries over enterprise data
 > 40% fewer support tickets · 30% CSAT improvement
@@ -160,7 +160,7 @@ Distributed Systems · Data Infrastructure · Cloud-Native Architecture · Searc
 
 ---
 
-**Community Connect — Full Stack Networking Platform**
+**Community Connect - Full Stack Networking Platform**
 `April 2023 – July 2023`
 > Real-time posts + resource sharing
 > Dynamic responsive feeds for distributed user base
@@ -191,10 +191,10 @@ Distributed Systems · Data Infrastructure · Cloud-Native Architecture · Searc
 
 ## 🎓 Education
 
-**Arizona State University** — MS Computer Science
+**Arizona State University** - MS Computer Science
 `Expected May 2027` · GPA: **4.0 / 4.0**
 
-**PSG College of Technology** — BE Computer Science
+**PSG College of Technology** - BE Computer Science
 `June 2023` · GPA: **8.95 / 10**
 
 ---
