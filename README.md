@@ -2,7 +2,6 @@
 
 🎓 MS Computer Science @ Arizona State University - 4.0 GPA
 💼 Ex-[@oracle](https://github.com/oracle) · [@MLH](https://github.com/mlh) Open Source Fellow
-📍 Tempe, AZ
 
 2 years shipping production systems at Oracle - building
 ETL pipelines, AI assistants, and reliability tooling for
@@ -199,7 +198,7 @@ Distributed Systems · Data Infrastructure · Cloud-Native Architecture · Searc
 
 ---
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=deepti-96&layout=compact&hide_border=true&langs_count=8)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=deepti-96&layout=compact&hide_border=true&langs_count=8&hide=jupyter%20notebook,html,css)
 
 ---
 
