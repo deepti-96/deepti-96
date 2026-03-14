@@ -169,26 +169,6 @@ Distributed Systems · Data Infrastructure · Cloud-Native Architecture · Searc
 
 ---
 
-## 📊 By the Numbers
-
-| Metric | Value | Context |
-|--------|-------|---------|
-| Reports Processed | 1M+ | Real-time phishing detection |
-| ML Model Accuracy | 90%+ | Neural network on phishing URLs |
-| ETL Complexity Reduced | 40% | Oracle production pipelines |
-| Support Tickets Reduced | 40% | Via SahAI AI chatbot |
-| Issue Resolution Speed | 35% faster | Oracle fault monitoring |
-| CSAT Improvement | 30% | Via SahAI |
-| Team Productivity | 30% | Knowledge sharing system |
-| Data Load Performance | 25% faster | ODI pipeline optimization |
-| Developers Impacted | 500+ | CLI tooling via MLH |
-| Engineers Mentored | 50+ | Oracle mentoring program |
-| Interns Onboarded | 25+ | Oracle intern program |
-| Global Clients Served | 10+ | Enterprise utility platforms |
-| Production Issues Resolved | 25+ | Oracle platform reliability |
-
----
-
 ## 🎓 Education
 
 **Arizona State University** - MS Computer Science
