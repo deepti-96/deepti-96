@@ -14,39 +14,13 @@
 
 ---
 
-### `> cat about_me.txt`
-
-```python
-deepti = {
-    "role": "MS Computer Science Student @ Arizona State University",
-    "prev": "Associate Applications Developer @ Oracle",
-    "code": ["Python", "Java", "TypeScript", "JavaScript", "C++", "Bash"],
-    "focus": ["Backend Engineering", "Distributed Systems", "AI/ML Systems"],
-    "technologies": {
-        "backend":     ["FastAPI", "Flask", "Django", "Spring Boot", "Node.js", "GraphQL"],
-        "frontend":    ["React.js", "Next.js", "Redux"],
-        "ai_ml":       ["AWS Bedrock", "RAG", "Vector Search", "TensorFlow", "MediaPipe"],
-        "data":        ["Kafka", "RabbitMQ", "Apache Spark", "Elasticsearch"],
-        "databases":   ["Oracle DB", "PostgreSQL", "MongoDB", "MySQL", "DynamoDB",
-                        "CockroachDB", "Firebase", "Neo4j"],
-        "cloud_devops":["AWS (EC2, S3, DynamoDB, Bedrock)", "OCI", "Docker",
-                        "Kubernetes", "Terraform", "Jenkins"],
-    },
-    "fun_fact": "I built an AI chatbot at Oracle that cut support tickets by 40% 🚀"
-}
-```
-
-<br clear="both"/>
-
----
-
 <div align="center">
 
-### `> ls ./tech_stack/`
+### `/ TECH STACK /`
 
 <br/>
 
-#### 🧠 Languages
+#### Languages
 <table>
 <tr>
 <td align="center" width="100">
@@ -82,7 +56,7 @@ deepti = {
 </tr>
 </table>
 
-#### ⚙️ Backend & Frameworks
+#### Backend & Frameworks
 <table>
 <tr>
 <td align="center" width="100">
@@ -118,7 +92,7 @@ deepti = {
 </tr>
 </table>
 
-#### 🎨 Frontend
+#### Frontend
 <table>
 <tr>
 <td align="center" width="100">
@@ -139,7 +113,7 @@ deepti = {
 </tr>
 </table>
 
-#### 🗄️ Databases
+#### Databases
 <table>
 <tr>
 <td align="center" width="100">
@@ -180,7 +154,7 @@ deepti = {
 </tr>
 </table>
 
-#### ☁️ Cloud & DevOps
+#### Cloud & DevOps
 <table>
 <tr>
 <td align="center" width="100">
@@ -221,21 +195,13 @@ deepti = {
 </tr>
 </table>
 
-#### ☁️ AWS Services
-<p>
-  <img src="https://img.shields.io/badge/EC2-Compute-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/S3-Storage-569A31?style=for-the-badge&logo=amazons3&logoColor=white&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/DynamoDB-Database-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white&labelColor=0d1117" />
-  <img src="https://img.shields.io/badge/Bedrock-Generative_AI-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white&labelColor=0d1117" />
-</p>
-
 </div>
 
 ---
 
 <div align="center">
 
-### `> neofetch --stats`
+### `/ STATS /`
 
 <br/>
 
@@ -262,7 +228,7 @@ deepti = {
 
 <div align="center">
 
-### `> echo $CONNECT`
+### `/ CONNECT/ `
 
 <br/>
 
