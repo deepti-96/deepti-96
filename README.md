@@ -1,184 +1,293 @@
-# Hey, I'm Deepti 👋
+<div align="center">
 
-🎓 MS Computer Science @ Arizona State University - 4.0 GPA
+[![](https://raw.githubusercontent.com/deepti-96/deepti-96/main/chat.svg)](https://www.linkedin.com/in/deepti-ravi-kumar/)
 
-💼 Ex-[@oracle](https://github.com/oracle) · [@MLH](https://github.com/mlh) Open Source Fellow
+<p>
+  <img src="https://img.shields.io/badge/MS_Computer_Science-Arizona_State_University-a855f7?style=for-the-badge&labelColor=0d1117&color=0d1117&logo=academia&logoColor=a855f7" />
+  <img src="https://img.shields.io/badge/Backend_Engineering-AI_Systems-0d1117?style=for-the-badge&labelColor=0d1117&logo=codepen&logoColor=a855f7" />
+  <img src="https://img.shields.io/badge/Distributed_Systems-0d1117?style=for-the-badge&labelColor=0d1117&logo=apachekafka&logoColor=a855f7" />
+</p>
 
-2 years shipping production systems at Oracle - building
-ETL pipelines, AI assistants, and reliability tooling for
-large-scale enterprise platforms.
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-Now at ASU - building distributed systems,
-exploring cloud-native infrastructure,
-and shipping production-grade systems.
-
----
-
-## 🧠 Engineering Interests
-
-Distributed Systems · Data Infrastructure · Cloud-Native Architecture · Search Systems · Developer Tooling · AI Systems
+</div>
 
 ---
 
-## 🛠 Tech Stack
+### `> cat about_me.txt`
 
-**Languages**
+```python
+deepti = {
+    "role": "MS Computer Science Student @ Arizona State University",
+    "prev": "Associate Applications Developer @ Oracle",
+    "code": ["Python", "Java", "TypeScript", "JavaScript", "C++", "Bash"],
+    "focus": ["Backend Engineering", "Distributed Systems", "AI/ML Systems"],
+    "technologies": {
+        "backend":     ["FastAPI", "Flask", "Django", "Spring Boot", "Node.js", "GraphQL"],
+        "frontend":    ["React.js", "Next.js", "Redux"],
+        "ai_ml":       ["AWS Bedrock", "RAG", "Vector Search", "TensorFlow", "MediaPipe"],
+        "data":        ["Kafka", "RabbitMQ", "Apache Spark", "Elasticsearch"],
+        "databases":   ["Oracle DB", "PostgreSQL", "MongoDB", "MySQL", "DynamoDB",
+                        "CockroachDB", "Firebase", "Neo4j"],
+        "cloud_devops":["AWS (EC2, S3, DynamoDB, Bedrock)", "OCI", "Docker",
+                        "Kubernetes", "Terraform", "Jenkins"],
+    },
+    "fun_fact": "I built an AI chatbot at Oracle that cut support tickets by 40% 🚀"
+}
+```
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-121011?style=flat&logo=gnu-bash&logoColor=white)
-
-**Backend & Frameworks**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=spring&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat&logo=graphql&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Redux](https://img.shields.io/badge/Redux-593D88?style=flat&logo=redux&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
-
-**Databases & Search**
-
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat&logo=elasticsearch)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat&logo=oracle&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-00000F?style=flat&logo=mysql&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
-![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat&logo=amazon-dynamodb&logoColor=white)
-![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=flat&logo=neo4j&logoColor=white)
-![CockroachDB](https://img.shields.io/badge/CockroachDB-6933FF?style=flat&logo=cockroachdb&logoColor=white)
-
-**Cloud & DevOps**
-
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazon-aws&logoColor=white)
-![OCI](https://img.shields.io/badge/Oracle_Cloud-F80000?style=flat&logo=oracle&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=jenkins&logoColor=white)
-![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat&logo=apache-kafka&logoColor=white)
-![Apache Spark](https://img.shields.io/badge/Apache_Spark-FDEE21?style=flat&logo=apachespark&logoColor=black)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Kibana](https://img.shields.io/badge/Kibana-005571?style=flat&logo=kibana)
-
-**ML & AI**
-
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=flat&logo=keras&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+<br clear="both"/>
 
 ---
 
-## 💼 Experience
+<div align="center">
 
-**[@oracle](https://github.com/oracle) - Associate Applications Developer**
-`July 2023 – August 2025` · Hyderabad, India
+### `> ls ./tech_stack/`
 
-- Designed and optimized ETL pipelines using ODI + Jenkins
-  - **25% improvement** in data load performance
-- Built fault-monitoring dashboards with OAS
-  - **35% faster** production issue resolution
-- Developed **SahAI** - AI chatbot using OCI GenAI, RAG,
-  and vector search - **40% fewer** support tickets,
-  **30% CSAT improvement**, Honorable Mention Oracle Hackathon 2024,
-  slated for Oracle product roadmap
-- Removed redundant data flows, automated schema validation
-  - **40% reduction** in ETL complexity
-- Resolved **25+ high-impact** production issues
-- Led mentoring program - upskilled **50+ engineers**
+<br/>
 
-**[@oracle](https://github.com/oracle) - Project Intern**
-`January 2023 – June 2023` · Hyderabad, India
+#### 🧠 Languages
+<table>
+<tr>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=python" width="48" height="48" />
+<br/><sub><b>Python</b></sub>
+<br/><img src="https://img.shields.io/badge/━━━━━━━━-a855f7?style=flat-square" />
+</td>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=java" width="48" height="48" />
+<br/><sub><b>Java</b></sub>
+<br/><img src="https://img.shields.io/badge/━━━━━━━━-f89820?style=flat-square" />
+</td>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=ts" width="48" height="48" />
+<br/><sub><b>TypeScript</b></sub>
+<br/><img src="https://img.shields.io/badge/━━━━━━━━-007acc?style=flat-square" />
+</td>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=js" width="48" height="48" />
+<br/><sub><b>JavaScript</b></sub>
+<br/><img src="https://img.shields.io/badge/━━━━━━━━-f7df1e?style=flat-square" />
+</td>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=cpp" width="48" height="48" />
+<br/><sub><b>C++</b></sub>
+<br/><img src="https://img.shields.io/badge/━━━━━━━━-00599c?style=flat-square" />
+</td>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=bash" width="48" height="48" />
+<br/><sub><b>Bash</b></sub>
+<br/><img src="https://img.shields.io/badge/━━━━━━━━-4eaa25?style=flat-square" />
+</td>
+</tr>
+</table>
 
-- Enhanced ETL workflows with ODI, GoldenGate, PL/SQL
-  for **10+ global utility clients**
-- Implemented CI/CD with Jenkins + Java + Bash
-  - **25% improvement** in pipeline reliability
-- Spearheaded Alumni Connect - mentored **25+ interns**,
-  **30% improvement** in team productivity
+#### ⚙️ Backend & Frameworks
+<table>
+<tr>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=fastapi" width="48" height="48" />
+<br/><sub><b>FastAPI</b></sub>
+<br/><img src="https://img.shields.io/badge/━━━━━━━━-009688?style=flat-square" />
+</td>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=flask" width="48" height="48" />
+<br/><sub><b>Flask</b></sub>
+<br/><img src="https://img.shields.io/badge/━━━━━━━━-ffffff?style=flat-square" />
+</td>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=django" width="48" height="48" />
+<br/><sub><b>Django</b></sub>
+<br/><img src="https://img.shields.io/badge/━━━━━━━━-092e20?style=flat-square" />
+</td>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" />
+<br/><sub><b>Node.js</b></sub>
+<br/><img src="https://img.shields.io/badge/━━━━━━━━-339933?style=flat-square" />
+</td>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=spring" width="48" height="48" />
+<br/><sub><b>Spring Boot</b></sub>
+<br/><img src="https://img.shields.io/badge/━━━━━━━━-6db33f?style=flat-square" />
+</td>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=graphql" width="48" height="48" />
+<br/><sub><b>GraphQL</b></sub>
+<br/><img src="https://img.shields.io/badge/━━━━━━━━-e10098?style=flat-square" />
+</td>
+</tr>
+</table>
 
-**[@MLH](https://github.com/mlh) - Open Source Fellow**
-`February 2022 – April 2022` · Remote
+#### 🎨 Frontend
+<table>
+<tr>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=react" width="48" height="48" />
+<br/><sub><b>React.js</b></sub>
+<br/><img src="https://img.shields.io/badge/━━━━━━━━-00e5ff?style=flat-square" />
+</td>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48" />
+<br/><sub><b>Next.js</b></sub>
+<br/><img src="https://img.shields.io/badge/━━━━━━━━-ffffff?style=flat-square" />
+</td>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=redux" width="48" height="48" />
+<br/><sub><b>Redux</b></sub>
+<br/><img src="https://img.shields.io/badge/━━━━━━━━-764abc?style=flat-square" />
+</td>
+</tr>
+</table>
 
-- Designed and implemented a custom **GitHub Actions CI pipeline**
-  to automatically compute and cache OpenSSF security scores
-  for repositories fetched via the npm package `repo-report`
-  - owned end-to-end CI/CD including job orchestration,
-  caching strategy, and GitHub API integration
-- Contributed to **Repo-Report-Cache** - a standalone npm package
-  extending `repo-report` with caching capabilities - gaining
-  hands-on experience with npm ecosystem packaging,
-  versioning, and open-source distribution workflows
-- Collaborated under mentorship of **Jordan Harband**
-  (TC39 member) alongside fellow engineers - navigating
-  open-source code review standards, API design contracts,
-  and community tooling development with advanced
-  JavaScript patterns
+#### 🗄️ Databases
+<table>
+<tr>
+<td align="center" width="100">
+<img src="https://img.shields.io/badge/Oracle-DB-F80000?style=for-the-badge&logo=oracle&logoColor=white" height="36" />
+<br/><sub><b>Oracle DB</b></sub>
+<br/><img src="https://img.shields.io/badge/━━━━━━━━-F80000?style=flat-square" />
+</td>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" />
+<br/><sub><b>PostgreSQL</b></sub>
+<br/><img src="https://img.shields.io/badge/━━━━━━━━-336791?style=flat-square" />
+</td>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=mongodb" width="48" height="48" />
+<br/><sub><b>MongoDB</b></sub>
+<br/><img src="https://img.shields.io/badge/━━━━━━━━-47a248?style=flat-square" />
+</td>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=mysql" width="48" height="48" />
+<br/><sub><b>MySQL</b></sub>
+<br/><img src="https://img.shields.io/badge/━━━━━━━━-00758f?style=flat-square" />
+</td>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=dynamodb" width="48" height="48" />
+<br/><sub><b>DynamoDB</b></sub>
+<br/><img src="https://img.shields.io/badge/━━━━━━━━-4053d6?style=flat-square" />
+</td>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=firebase" width="48" height="48" />
+<br/><sub><b>Firebase</b></sub>
+<br/><img src="https://img.shields.io/badge/━━━━━━━━-ffca28?style=flat-square" />
+</td>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=elasticsearch" width="48" height="48" />
+<br/><sub><b>Elasticsearch</b></sub>
+<br/><img src="https://img.shields.io/badge/━━━━━━━━-005571?style=flat-square" />
+</td>
+</tr>
+</table>
+
+#### ☁️ Cloud & DevOps
+<table>
+<tr>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=aws" width="48" height="48" />
+<br/><sub><b>AWS</b></sub>
+<br/><img src="https://img.shields.io/badge/━━━━━━━━-ff9900?style=flat-square" />
+</td>
+<td align="center" width="100">
+<img src="https://img.shields.io/badge/OCI-Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white" height="36" />
+<br/><sub><b>OCI</b></sub>
+<br/><img src="https://img.shields.io/badge/━━━━━━━━-F80000?style=flat-square" />
+</td>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=docker" width="48" height="48" />
+<br/><sub><b>Docker</b></sub>
+<br/><img src="https://img.shields.io/badge/━━━━━━━━-2496ed?style=flat-square" />
+</td>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=kubernetes" width="48" height="48" />
+<br/><sub><b>Kubernetes</b></sub>
+<br/><img src="https://img.shields.io/badge/━━━━━━━━-326ce5?style=flat-square" />
+</td>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=terraform" width="48" height="48" />
+<br/><sub><b>Terraform</b></sub>
+<br/><img src="https://img.shields.io/badge/━━━━━━━━-7b42bc?style=flat-square" />
+</td>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=jenkins" width="48" height="48" />
+<br/><sub><b>Jenkins</b></sub>
+<br/><img src="https://img.shields.io/badge/━━━━━━━━-d24939?style=flat-square" />
+</td>
+<td align="center" width="100">
+<img src="https://skillicons.dev/icons?i=kafka" width="48" height="48" />
+<br/><sub><b>Kafka</b></sub>
+<br/><img src="https://img.shields.io/badge/━━━━━━━━-231f20?style=flat-square" />
+</td>
+</tr>
+</table>
+
+#### ☁️ AWS Services
+<p>
+  <img src="https://img.shields.io/badge/EC2-Compute-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/S3-Storage-569A31?style=for-the-badge&logo=amazons3&logoColor=white&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/DynamoDB-Database-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white&labelColor=0d1117" />
+  <img src="https://img.shields.io/badge/Bedrock-Generative_AI-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white&labelColor=0d1117" />
+</p>
+
+</div>
 
 ---
 
-## 🚀 Projects
+<div align="center">
 
-**[PhishNChips](https://github.com/deepti-96/PhishNChips-Distributed-Phishing-Intelligence-Network) - Geo-Distributed Phishing Intelligence**
-`October 2025 – December 2025`
-> 3-node Elasticsearch cluster (sharding + RF=2 replication)
-> US · EU · Asia regions with distributed query routing
-> Neural network risk scoring · 1M+ reports processed
-> <200ms ingestion latency · <60s node failure recovery
-> CI/CD via GitHub Actions · automated testing on every push
+### `> neofetch --stats`
 
-`Python` `FastAPI` `Elasticsearch` `TensorFlow` `Docker` `JavaScript` `Kibana`
+<br/>
 
----
+<p>
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=deepti-96&show_icons=true&theme=transparent&bg_color=0d1117&title_color=a855f7&text_color=c9d1d9&icon_color=00e5ff&hide_border=true&border_radius=15&ring_color=00e5ff" />
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=deepti-96&layout=compact&theme=transparent&bg_color=0d1117&title_color=a855f7&text_color=c9d1d9&hide_border=true&border_radius=15" />
+</p>
 
-**SahAI - AI Assistant for Oracle OUAF Edge Apps**
-`Oracle IGIU Hackathon 2024 - Honorable Mention`
-> OCI Generative AI · RAG pipeline · vector search
-> Natural language queries over enterprise data
-> 40% fewer support tickets · 30% CSAT improvement
-> Slated for Oracle product roadmap integration
+<br/><br/>
 
-`Python` `OCI GenAI` `RAG` `Vector Search` `LLMs`
+<a href="https://github.com/deepti-96">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=deepti-96&theme=transparent&background=0d1117&ring=a855f7&fire=00e5ff&currStreakLabel=a855f7&sideLabels=c9d1d9&sideNums=a855f7&currStreakNum=c9d1d9&dates=555555&hide_border=true&border_radius=15" width="600" />
+</a>
 
----
+<br/><br/>
 
-**[Microservices Communication](https://github.com/deepti-96/Microservices-Communication)**
-`January 2022 – May 2022`
-> RabbitMQ (AMQP) · auto-discovery · scalable pub-sub
-> Fault-tolerant inter-service messaging
+<a href="https://github.com/deepti-96">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=deepti-96&bg_color=0d1117&color=a855f7&line=00e5ff&point=a855f7&area=true&area_color=2d0057&hide_border=true&custom_title=Contribution%20Graph" width="95%" />
+</a>
 
-`Node.js` `RabbitMQ` `REST APIs` `Distributed Systems`
+</div>
 
 ---
 
-**[Community Connect](https://github.com/deepti-96/Community-Connect)**
-`April 2023 – July 2023`
-> Real-time posts + resource sharing
-> Dynamic responsive feeds for distributed user base
+<div align="center">
 
-`React` `Redux` `Firebase` `Firestore` `Material-UI`
+### `> echo $CONNECT`
 
----
+<br/>
 
-## 🎓 Education
+<a href="https://www.linkedin.com/in/deepti-ravi-kumar/">
+  <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white&color=0d1117&labelColor=0d1117" />
+</a>
+&nbsp;&nbsp;
+<a href="mailto:deeptiravikumar@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white&color=0d1117&labelColor=0d1117" />
+</a>
+&nbsp;&nbsp;
+<a href="https://github.com/deepti-96">
+  <img src="https://img.shields.io/badge/GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white&color=0d1117&labelColor=0d1117" />
+</a>
 
-**Arizona State University** - MS Computer Science
-`Expected May 2027` · GPA: **4.0 / 4.0**
+<br/><br/>
 
-**PSG College of Technology** - BE Computer Science
-`June 2023` · GPA: **8.95 / 10**
+<img src="https://komarev.com/ghpvc/?username=deepti-96&style=for-the-badge&color=a855f7&labelColor=0d1117&label=PROFILE+VIEWS" />
 
----
+<br/><br/>
 
-## 📫 Connect
+> *"The best way to predict the future is to build it."*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/deepti-ravi-kumar-620145215/)
+<br/>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2d0057,30:1a0033,60:0d001a,100:0d1117&height=120&section=footer" width="100%" />
