@@ -1,0 +1,211 @@
+<svg width="560" height="370" viewBox="0 0 560 370" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+      .bubble-left {
+        fill: #2d1f45;
+      }
+      .bubble-right {
+        fill: #a855f7;
+      }
+      text {
+        fill: #e2d9f3;
+        font-size: 16px;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        letter-spacing: -0.01em;
+      }
+      .text-right {
+        fill: #ffffff;
+      }
+      a {
+        fill: #00e5ff;
+        text-decoration: underline;
+      }
+
+      .typing-1 { opacity: 0; animation: fade-in-out 1.5s; }
+      .msg-1     { opacity: 0; animation: wait 1.7s, appear 0.3s 1.7s forwards; }
+
+      .typing-2  { opacity: 0; animation: wait 2.5s, fade-in-out 1.5s 2.5s; }
+      .msg-2     { opacity: 0; animation: wait 4.2s, appear 0.3s 4.2s forwards; }
+
+      .typing-3  { opacity: 0; animation: wait 5.2s, fade-in-out 1.5s 5.2s; }
+      .msg-3     { opacity: 0; animation: wait 6.9s, appear 0.3s 6.9s forwards; }
+
+      .typing-4  { opacity: 0; animation: wait 7.9s, fade-in-out 1.5s 7.9s; }
+      .msg-4     { opacity: 0; animation: wait 9.6s, appear 0.3s 9.6s forwards; }
+
+      .typing-5  { opacity: 0; animation: wait 10.6s, fade-in-out 1.5s 10.6s; }
+      .msg-5     { opacity: 0; animation: wait 12.3s, appear 0.3s 12.3s forwards; }
+
+      .msg-6     { opacity: 0; animation: wait 13.3s, appear 0.3s 13.3s forwards; }
+
+      @keyframes wait {
+        0%, 100% { opacity: 0; }
+      }
+
+      @keyframes fade-in-out {
+        0%, 100% { opacity: 0; }
+        25%, 85% { opacity: 1; }
+      }
+
+      @keyframes appear {
+        0%   { opacity: 0; transform: translateY(6px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="560" height="370" rx="16" fill="#0d1117"/>
+
+  <!-- Header bar -->
+  <rect width="560" height="44" rx="0" fill="#161b22"/>
+  <rect width="560" height="44" rx="16" fill="#161b22"/>
+  <rect x="0" y="28" width="560" height="16" fill="#161b22"/>
+  <circle cx="20" cy="22" r="6" fill="#ff5f57"/>
+  <circle cx="38" cy="22" r="6" fill="#ffbd2e"/>
+  <circle cx="56" cy="22" r="6" fill="#28c840"/>
+  <text x="240" y="28" fill="#8b949e" font-size="13" text-anchor="middle">deepti-96 · chat</text>
+
+  <!-- TYPING 1 -->
+  <g transform="translate(14, 58)" class="typing-1">
+    <rect x="8" width="62" height="36" rx="18" class="bubble-left"/>
+    <circle cx="12" cy="28" r="6" class="bubble-left"/>
+    <circle cx="4" cy="35" r="3" class="bubble-left"/>
+    <circle cx="26" cy="18" r="4" fill="#7c4dff">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="0.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="39" cy="18" r="4" fill="#7c4dff">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="0.9s" begin="0.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="52" cy="18" r="4" fill="#7c4dff">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="0.9s" begin="0.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- MSG 1: Hi, I'm Deepti 👋 -->
+  <g class="msg-1">
+    <g transform="translate(14, 58)">
+      <rect width="190" height="36" rx="18" class="bubble-left"/>
+      <circle cx="0" cy="28" r="6" class="bubble-left"/>
+      <circle cx="-8" cy="35" r="3" class="bubble-left"/>
+      <text x="14" y="24">Hi, I'm Deepti 👋</text>
+    </g>
+  </g>
+
+  <!-- TYPING 2 -->
+  <g transform="translate(14, 104)" class="typing-2">
+    <rect x="8" width="62" height="36" rx="18" class="bubble-left"/>
+    <circle cx="12" cy="28" r="6" class="bubble-left"/>
+    <circle cx="4" cy="35" r="3" class="bubble-left"/>
+    <circle cx="26" cy="18" r="4" fill="#7c4dff">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="0.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="39" cy="18" r="4" fill="#7c4dff">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="0.9s" begin="0.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="52" cy="18" r="4" fill="#7c4dff">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="0.9s" begin="0.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- MSG 2: MS CS @ ASU | Ex-Oracle -->
+  <g class="msg-2">
+    <g transform="translate(14, 104)">
+      <rect width="330" height="36" rx="18" class="bubble-left"/>
+      <circle cx="0" cy="28" r="6" class="bubble-left"/>
+      <circle cx="-8" cy="35" r="3" class="bubble-left"/>
+      <text x="14" y="24">MS CS @ ASU · Ex-Oracle Developer</text>
+    </g>
+  </g>
+
+  <!-- TYPING 3 -->
+  <g transform="translate(14, 150)" class="typing-3">
+    <rect x="8" width="62" height="36" rx="18" class="bubble-left"/>
+    <circle cx="12" cy="28" r="6" class="bubble-left"/>
+    <circle cx="4" cy="35" r="3" class="bubble-left"/>
+    <circle cx="26" cy="18" r="4" fill="#7c4dff">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="0.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="39" cy="18" r="4" fill="#7c4dff">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="0.9s" begin="0.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="52" cy="18" r="4" fill="#7c4dff">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="0.9s" begin="0.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- MSG 3: Backend · Distributed Systems · AI -->
+  <g class="msg-3">
+    <g transform="translate(14, 150)">
+      <rect width="400" height="36" rx="18" class="bubble-left"/>
+      <circle cx="0" cy="28" r="6" class="bubble-left"/>
+      <circle cx="-8" cy="35" r="3" class="bubble-left"/>
+      <text x="14" y="24">Backend Engineering · Distributed Systems · AI</text>
+    </g>
+  </g>
+
+  <!-- TYPING 4 (right side — recruiter asks) -->
+  <g transform="translate(390, 196)" class="typing-4">
+    <rect x="8" width="62" height="36" rx="18" class="bubble-right"/>
+    <circle cx="62" cy="28" r="6" class="bubble-right"/>
+    <circle cx="70" cy="35" r="3" class="bubble-right"/>
+    <circle cx="20" cy="18" r="4" fill="#ffffff" opacity="0.7">
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="0.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="33" cy="18" r="4" fill="#ffffff" opacity="0.7">
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="0.9s" begin="0.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="46" cy="18" r="4" fill="#ffffff" opacity="0.7">
+      <animate attributeName="opacity" values="0.3;0.9;0.3" dur="0.9s" begin="0.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- MSG 4 (right): Cool! What do you build? -->
+  <g class="msg-4">
+    <g transform="translate(326, 196)">
+      <rect width="220" height="36" rx="18" class="bubble-right"/>
+      <circle cx="220" cy="28" r="6" class="bubble-right"/>
+      <circle cx="228" cy="35" r="3" class="bubble-right"/>
+      <text x="14" y="24" class="text-right">Cool! What do you build?</text>
+    </g>
+  </g>
+
+  <!-- TYPING 5 -->
+  <g transform="translate(14, 242)" class="typing-5">
+    <rect x="8" width="62" height="36" rx="18" class="bubble-left"/>
+    <circle cx="12" cy="28" r="6" class="bubble-left"/>
+    <circle cx="4" cy="35" r="3" class="bubble-left"/>
+    <circle cx="26" cy="18" r="4" fill="#7c4dff">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="0.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="39" cy="18" r="4" fill="#7c4dff">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="0.9s" begin="0.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="52" cy="18" r="4" fill="#7c4dff">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="0.9s" begin="0.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- MSG 5: AI tools, distributed systems & accessible tech -->
+  <g class="msg-5">
+    <g transform="translate(14, 242)">
+      <rect width="450" height="36" rx="18" class="bubble-left"/>
+      <circle cx="0" cy="28" r="6" class="bubble-left"/>
+      <circle cx="-8" cy="35" r="3" class="bubble-left"/>
+      <text x="14" y="24">AI tools, distributed systems &amp; accessible tech 🚀</text>
+    </g>
+  </g>
+
+  <!-- MSG 6: reach out -->
+  <g class="msg-6">
+    <g transform="translate(14, 290)">
+      <rect width="510" height="36" rx="18" class="bubble-left"/>
+      <circle cx="0" cy="28" r="6" class="bubble-left"/>
+      <circle cx="-8" cy="35" r="3" class="bubble-left"/>
+      <text x="14" y="24">Reach me at <a xlink:href="mailto:deeptiravikumar@gmail.com">deeptiravikumar@gmail.com</a> or <a xlink:href="https://www.linkedin.com/in/deepti-ravi-kumar/">LinkedIn</a> 🙌</text>
+    </g>
+  </g>
+
+</svg>
