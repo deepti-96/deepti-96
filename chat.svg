@@ -1,136 +1,157 @@
 <svg width="560" height="340" viewBox="0 0 560 340" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .bg { fill: #0d1117; }
-    .bar { fill: #161b22; }
-    .bubble-l { fill: #2d1f45; }
-    .bubble-r { fill: #a855f7; }
-    .dot-l { fill: #7c4dff; }
-    .dot-r { fill: #ffffff; }
     text {
-      fill: #e2d9f3;
-      font-size: 15px;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 15px;
+      fill: #e2d9f3;
     }
     .t-right { fill: #ffffff; }
-    .t-link  { fill: #00e5ff; }
     .t-dim   { fill: #8b949e; font-size: 12px; }
-
-    /* typing indicators */
-    .ty1 { opacity:0; animation: fio 1.4s 0s; }
-    .ty2 { opacity:0; animation: fio 1.4s 2.2s; }
-    .ty3 { opacity:0; animation: fio 1.4s 4.4s; }
-    .ty4 { opacity:0; animation: fio 1.4s 6.4s; }
-    .ty5 { opacity:0; animation: fio 1.4s 8.4s; }
-
-    /* messages */
-    .m1  { opacity:0; animation: pop 0.25s 1.6s forwards; }
-    .m2  { opacity:0; animation: pop 0.25s 3.8s forwards; }
-    .m3  { opacity:0; animation: pop 0.25s 6.0s forwards; }
-    .m4  { opacity:0; animation: pop 0.25s 8.0s forwards; }
-    .m5  { opacity:0; animation: pop 0.25s 10.0s forwards; }
-
-    @keyframes fio {
-      0%,100% { opacity:0; }
-      20%,80% { opacity:1; }
-    }
-    @keyframes pop {
-      from { opacity:0; transform: translateY(5px); }
-      to   { opacity:1; transform: translateY(0); }
-    }
+    .t-link  { fill: #00e5ff; font-size: 13px; text-decoration: underline; }
+ 
+    .d1 { animation: pulse 0.7s 0s infinite; }
+    .d2 { animation: pulse 0.7s 0.15s infinite; }
+    .d3 { animation: pulse 0.7s 0.3s infinite; }
+    @keyframes pulse { 0%,100%{opacity:0.2;} 50%{opacity:1;} }
+ 
+    /* 99s loop trick — messages stay visible once appeared */
+    /* ty = typing indicator, m = message bubble */
+    /* Timeline:
+       0.0  ty1   1.4  m1
+       2.4  ty2   3.8  m2
+       4.8  ty3   6.2  m3
+       7.2  ty4   8.6  m4
+       9.6  ty5  11.0  m5
+      12.0  ty6  13.4  m6
+    */
+ 
+    .ty1{animation:ty1 99s linear infinite;} .m1{animation:m1 99s linear infinite;}
+    .ty2{animation:ty2 99s linear infinite;} .m2{animation:m2 99s linear infinite;}
+    .ty3{animation:ty3 99s linear infinite;} .m3{animation:m3 99s linear infinite;}
+    .ty4{animation:ty4 99s linear infinite;} .m4{animation:m4 99s linear infinite;}
+    .ty5{animation:ty5 99s linear infinite;} .m5{animation:m5 99s linear infinite;}
+    .ty6{animation:ty6 99s linear infinite;} .m6{animation:m6 99s linear infinite;}
+ 
+    @keyframes ty1{0%{opacity:0;}0.01%{opacity:1;}1.41%{opacity:1;}1.42%{opacity:0;}100%{opacity:0;}}
+    @keyframes m1 {0%{opacity:0;}1.41%{opacity:0;}1.42%{opacity:1;}100%{opacity:1;}}
+ 
+    @keyframes ty2{0%{opacity:0;}2.42%{opacity:0;}2.43%{opacity:1;}3.83%{opacity:1;}3.84%{opacity:0;}100%{opacity:0;}}
+    @keyframes m2 {0%{opacity:0;}3.83%{opacity:0;}3.84%{opacity:1;}100%{opacity:1;}}
+ 
+    @keyframes ty3{0%{opacity:0;}4.84%{opacity:0;}4.85%{opacity:1;}6.26%{opacity:1;}6.27%{opacity:0;}100%{opacity:0;}}
+    @keyframes m3 {0%{opacity:0;}6.26%{opacity:0;}6.27%{opacity:1;}100%{opacity:1;}}
+ 
+    @keyframes ty4{0%{opacity:0;}7.27%{opacity:0;}7.28%{opacity:1;}8.68%{opacity:1;}8.69%{opacity:0;}100%{opacity:0;}}
+    @keyframes m4 {0%{opacity:0;}8.68%{opacity:0;}8.69%{opacity:1;}100%{opacity:1;}}
+ 
+    @keyframes ty5{0%{opacity:0;}9.69%{opacity:0;}9.70%{opacity:1;}11.11%{opacity:1;}11.12%{opacity:0;}100%{opacity:0;}}
+    @keyframes m5 {0%{opacity:0;}11.11%{opacity:0;}11.12%{opacity:1;}100%{opacity:1;}}
+ 
+    @keyframes ty6{0%{opacity:0;}12.12%{opacity:0;}12.13%{opacity:1;}13.53%{opacity:1;}13.54%{opacity:0;}100%{opacity:0;}}
+    @keyframes m6 {0%{opacity:0;}13.53%{opacity:0;}13.54%{opacity:1;}100%{opacity:1;}}
   </style>
-
-  <!-- background -->
-  <rect width="560" height="340" rx="14" class="bg"/>
-
-  <!-- top bar -->
-  <rect width="560" height="40" rx="14" class="bar"/>
-  <rect y="26" width="560" height="14" class="bar"/>
+ 
+  <!-- Background -->
+  <rect width="560" height="340" rx="14" fill="#0d1117"/>
+  <rect width="560" height="40" rx="14" fill="#161b22"/>
+  <rect y="26" width="560" height="14" fill="#161b22"/>
   <circle cx="18" cy="20" r="5" fill="#ff5f57"/>
   <circle cx="34" cy="20" r="5" fill="#ffbd2e"/>
   <circle cx="50" cy="20" r="5" fill="#28c840"/>
   <text x="280" y="25" text-anchor="middle" class="t-dim">deepti-96 · Messages</text>
-
-  <!-- ── ROW 1 left: "Hi, I'm Deepti 👋" ── -->
-  <!-- typing -->
+ 
+  <!-- TYPING 1 -->
   <g class="ty1" transform="translate(14,52)">
-    <rect x="6" y="0" width="58" height="32" rx="16" class="bubble-l"/>
-    <circle cx="10" cy="24" r="5" class="bubble-l"/>
-    <circle cx="3"  cy="30" r="3" class="bubble-l"/>
-    <circle cx="22" cy="16" r="3.5" class="dot-l"><animate attributeName="opacity" values="0.3;1;0.3" dur="0.8s" repeatCount="indefinite"/></circle>
-    <circle cx="34" cy="16" r="3.5" class="dot-l"><animate attributeName="opacity" values="0.3;1;0.3" dur="0.8s" begin="0.15s" repeatCount="indefinite"/></circle>
-    <circle cx="46" cy="16" r="3.5" class="dot-l"><animate attributeName="opacity" values="0.3;1;0.3" dur="0.8s" begin="0.3s" repeatCount="indefinite"/></circle>
+    <rect x="6" width="56" height="30" rx="15" fill="#2d1f45"/>
+    <circle cx="10" cy="22" r="5" fill="#2d1f45"/><circle cx="3" cy="28" r="3" fill="#2d1f45"/>
+    <circle cx="21" cy="15" r="3" fill="#7c4dff" class="d1"/>
+    <circle cx="33" cy="15" r="3" fill="#7c4dff" class="d2"/>
+    <circle cx="45" cy="15" r="3" fill="#7c4dff" class="d3"/>
   </g>
-  <!-- message -->
+  <!-- MSG 1 -->
   <g class="m1" transform="translate(14,52)">
-    <rect width="178" height="32" rx="16" class="bubble-l"/>
-    <circle cx="0"  cy="24" r="5" class="bubble-l"/>
-    <circle cx="-7" cy="30" r="3" class="bubble-l"/>
-    <text x="12" y="21">Hi, I'm Deepti 👋</text>
+    <rect width="182" height="30" rx="15" fill="#2d1f45"/>
+    <circle cx="0" cy="22" r="5" fill="#2d1f45"/><circle cx="-7" cy="28" r="3" fill="#2d1f45"/>
+    <text x="12" y="20">Hi, I'm Deepti 👋</text>
   </g>
-
-  <!-- ── ROW 2 left: role ── -->
-  <g class="ty2" transform="translate(14,96)">
-    <rect x="6" y="0" width="58" height="32" rx="16" class="bubble-l"/>
-    <circle cx="10" cy="24" r="5" class="bubble-l"/>
-    <circle cx="3"  cy="30" r="3" class="bubble-l"/>
-    <circle cx="22" cy="16" r="3.5" class="dot-l"><animate attributeName="opacity" values="0.3;1;0.3" dur="0.8s" repeatCount="indefinite"/></circle>
-    <circle cx="34" cy="16" r="3.5" class="dot-l"><animate attributeName="opacity" values="0.3;1;0.3" dur="0.8s" begin="0.15s" repeatCount="indefinite"/></circle>
-    <circle cx="46" cy="16" r="3.5" class="dot-l"><animate attributeName="opacity" values="0.3;1;0.3" dur="0.8s" begin="0.3s" repeatCount="indefinite"/></circle>
+ 
+  <!-- TYPING 2 -->
+  <g class="ty2" transform="translate(14,94)">
+    <rect x="6" width="56" height="30" rx="15" fill="#2d1f45"/>
+    <circle cx="10" cy="22" r="5" fill="#2d1f45"/><circle cx="3" cy="28" r="3" fill="#2d1f45"/>
+    <circle cx="21" cy="15" r="3" fill="#7c4dff" class="d1"/>
+    <circle cx="33" cy="15" r="3" fill="#7c4dff" class="d2"/>
+    <circle cx="45" cy="15" r="3" fill="#7c4dff" class="d3"/>
   </g>
-  <g class="m2" transform="translate(14,96)">
-    <rect width="320" height="32" rx="16" class="bubble-l"/>
-    <circle cx="0"  cy="24" r="5" class="bubble-l"/>
-    <circle cx="-7" cy="30" r="3" class="bubble-l"/>
-    <text x="12" y="21">MS CS @ ASU · Ex-Oracle Developer</text>
+  <!-- MSG 2 -->
+  <g class="m2" transform="translate(14,94)">
+    <rect width="322" height="30" rx="15" fill="#2d1f45"/>
+    <circle cx="0" cy="22" r="5" fill="#2d1f45"/><circle cx="-7" cy="28" r="3" fill="#2d1f45"/>
+    <text x="12" y="20">MS CS @ ASU · Ex-Oracle Developer</text>
   </g>
-
-  <!-- ── ROW 3 left: focus ── -->
-  <g class="ty3" transform="translate(14,140)">
-    <rect x="6" y="0" width="58" height="32" rx="16" class="bubble-l"/>
-    <circle cx="10" cy="24" r="5" class="bubble-l"/>
-    <circle cx="3"  cy="30" r="3" class="bubble-l"/>
-    <circle cx="22" cy="16" r="3.5" class="dot-l"><animate attributeName="opacity" values="0.3;1;0.3" dur="0.8s" repeatCount="indefinite"/></circle>
-    <circle cx="34" cy="16" r="3.5" class="dot-l"><animate attributeName="opacity" values="0.3;1;0.3" dur="0.8s" begin="0.15s" repeatCount="indefinite"/></circle>
-    <circle cx="46" cy="16" r="3.5" class="dot-l"><animate attributeName="opacity" values="0.3;1;0.3" dur="0.8s" begin="0.3s" repeatCount="indefinite"/></circle>
+ 
+  <!-- TYPING 3 -->
+  <g class="ty3" transform="translate(14,136)">
+    <rect x="6" width="56" height="30" rx="15" fill="#2d1f45"/>
+    <circle cx="10" cy="22" r="5" fill="#2d1f45"/><circle cx="3" cy="28" r="3" fill="#2d1f45"/>
+    <circle cx="21" cy="15" r="3" fill="#7c4dff" class="d1"/>
+    <circle cx="33" cy="15" r="3" fill="#7c4dff" class="d2"/>
+    <circle cx="45" cy="15" r="3" fill="#7c4dff" class="d3"/>
   </g>
-  <g class="m3" transform="translate(14,140)">
-    <rect width="400" height="32" rx="16" class="bubble-l"/>
-    <circle cx="0"  cy="24" r="5" class="bubble-l"/>
-    <circle cx="-7" cy="30" r="3" class="bubble-l"/>
-    <text x="12" y="21">Backend · Distributed Systems · AI/ML</text>
+  <!-- MSG 3 -->
+  <g class="m3" transform="translate(14,136)">
+    <rect width="366" height="30" rx="15" fill="#2d1f45"/>
+    <circle cx="0" cy="22" r="5" fill="#2d1f45"/><circle cx="-7" cy="28" r="3" fill="#2d1f45"/>
+    <text x="12" y="20">Backend · Distributed Systems · AI/ML</text>
   </g>
-
-  <!-- ── ROW 4 right: recruiter ── -->
-  <g class="ty4" transform="translate(400,184)">
-    <rect x="6" y="0" width="58" height="32" rx="16" class="bubble-r"/>
-    <circle cx="60" cy="24" r="5" class="bubble-r"/>
-    <circle cx="67" cy="30" r="3" class="bubble-r"/>
-    <circle cx="18" cy="16" r="3.5" class="dot-r" opacity="0.6"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="0.8s" repeatCount="indefinite"/></circle>
-    <circle cx="30" cy="16" r="3.5" class="dot-r" opacity="0.6"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="0.8s" begin="0.15s" repeatCount="indefinite"/></circle>
-    <circle cx="42" cy="16" r="3.5" class="dot-r" opacity="0.6"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="0.8s" begin="0.3s" repeatCount="indefinite"/></circle>
+ 
+  <!-- TYPING 4 (right) -->
+  <g class="ty4" transform="translate(492,178)">
+    <rect x="-62" width="56" height="30" rx="15" fill="#a855f7"/>
+    <circle cx="-6" cy="22" r="5" fill="#a855f7"/><circle cx="1" cy="28" r="3" fill="#a855f7"/>
+    <circle cx="-49" cy="15" r="3" fill="#ffffff" opacity="0.7" class="d1"/>
+    <circle cx="-37" cy="15" r="3" fill="#ffffff" opacity="0.7" class="d2"/>
+    <circle cx="-25" cy="15" r="3" fill="#ffffff" opacity="0.7" class="d3"/>
   </g>
-  <g class="m4" transform="translate(330,184)">
-    <rect width="216" height="32" rx="16" class="bubble-r"/>
-    <circle cx="216" cy="24" r="5" class="bubble-r"/>
-    <circle cx="223" cy="30" r="3" class="bubble-r"/>
-    <text x="12" y="21" class="t-right">Cool! What do you build?</text>
+  <!-- MSG 4 (right) -->
+  <g class="m4" transform="translate(336,178)">
+    <rect width="210" height="30" rx="15" fill="#a855f7"/>
+    <circle cx="210" cy="22" r="5" fill="#a855f7"/><circle cx="217" cy="28" r="3" fill="#a855f7"/>
+    <text x="12" y="20" class="t-right">Cool! What do you build?</text>
   </g>
-
-  <!-- ── ROW 5 left: reply + contact ── -->
-  <g class="ty5" transform="translate(14,228)">
-    <rect x="6" y="0" width="58" height="32" rx="16" class="bubble-l"/>
-    <circle cx="10" cy="24" r="5" class="bubble-l"/>
-    <circle cx="3"  cy="30" r="3" class="bubble-l"/>
-    <circle cx="22" cy="16" r="3.5" class="dot-l"><animate attributeName="opacity" values="0.3;1;0.3" dur="0.8s" repeatCount="indefinite"/></circle>
-    <circle cx="34" cy="16" r="3.5" class="dot-l"><animate attributeName="opacity" values="0.3;1;0.3" dur="0.8s" begin="0.15s" repeatCount="indefinite"/></circle>
-    <circle cx="46" cy="16" r="3.5" class="dot-l"><animate attributeName="opacity" values="0.3;1;0.3" dur="0.8s" begin="0.3s" repeatCount="indefinite"/></circle>
+ 
+  <!-- TYPING 5 -->
+  <g class="ty5" transform="translate(14,220)">
+    <rect x="6" width="56" height="30" rx="15" fill="#2d1f45"/>
+    <circle cx="10" cy="22" r="5" fill="#2d1f45"/><circle cx="3" cy="28" r="3" fill="#2d1f45"/>
+    <circle cx="21" cy="15" r="3" fill="#7c4dff" class="d1"/>
+    <circle cx="33" cy="15" r="3" fill="#7c4dff" class="d2"/>
+    <circle cx="45" cy="15" r="3" fill="#7c4dff" class="d3"/>
   </g>
-  <g class="m5" transform="translate(14,228)">
-    <rect width="510" height="60" rx="16" class="bubble-l"/>
-    <circle cx="0"  cy="50" r="5" class="bubble-l"/>
-    <circle cx="-7" cy="57" r="3" class="bubble-l"/>
-    <text x="12" y="24">AI tools, distributed systems &amp; accessible tech 🚀</text>
-    <text x="12" y="47" class="t-link">deeptiravikumar@gmail.com · linkedin.com/in/deepti-ravi-kumar</text>
+  <!-- MSG 5 -->
+  <g class="m5" transform="translate(14,220)">
+    <rect width="420" height="30" rx="15" fill="#2d1f45"/>
+    <circle cx="0" cy="22" r="5" fill="#2d1f45"/><circle cx="-7" cy="28" r="3" fill="#2d1f45"/>
+    <text x="12" y="20">AI tools, distributed systems &amp; accessible tech 🚀</text>
   </g>
-
+ 
+  <!-- TYPING 6 -->
+  <g class="ty6" transform="translate(14,262)">
+    <rect x="6" width="56" height="30" rx="15" fill="#2d1f45"/>
+    <circle cx="10" cy="22" r="5" fill="#2d1f45"/><circle cx="3" cy="28" r="3" fill="#2d1f45"/>
+    <circle cx="21" cy="15" r="3" fill="#7c4dff" class="d1"/>
+    <circle cx="33" cy="15" r="3" fill="#7c4dff" class="d2"/>
+    <circle cx="45" cy="15" r="3" fill="#7c4dff" class="d3"/>
+  </g>
+  <!-- MSG 6 — reach out with clickable links -->
+  <g class="m6" transform="translate(14,262)">
+    <rect width="400" height="30" rx="15" fill="#2d1f45"/>
+    <circle cx="0" cy="22" r="5" fill="#2d1f45"/><circle cx="-7" cy="28" r="3" fill="#2d1f45"/>
+    <text x="12" y="20" fill="#e2d9f3" font-family="-apple-system,sans-serif" font-size="15px">Feel free to reach out via&#160;</text>
+    <a xlink:href="mailto:deeptiravikumar@gmail.com" xmlns:xlink="http://www.w3.org/1999/xlink"><text x="189" y="20" style="fill:#4493f8;text-decoration:underline;font-family:-apple-system,sans-serif;font-size:15px;">Email</text></a>
+    <text x="224" y="20" fill="#e2d9f3" font-family="-apple-system,sans-serif" font-size="15px">&#160;or&#160;</text>
+    <a xlink:href="https://www.linkedin.com/in/deepti-ravi-kumar/" xmlns:xlink="http://www.w3.org/1999/xlink"><text x="249" y="20" style="fill:#4493f8;text-decoration:underline;font-family:-apple-system,sans-serif;font-size:15px;">LinkedIn</text></a>
+    <text x="313" y="20" fill="#e2d9f3" font-family="-apple-system,sans-serif" font-size="15px">&#160;🙌</text>
+  </g>
+ 
 </svg>
