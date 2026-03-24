@@ -207,7 +207,7 @@
 
 <p>
   <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=deepti-96&show_icons=true&theme=transparent&bg_color=0d1117&title_color=a855f7&text_color=c9d1d9&icon_color=00e5ff&hide_border=true&border_radius=15&ring_color=00e5ff" />
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=deepti-96&layout=compact&theme=transparent&bg_color=0d1117&title_color=a855f7&text_color=c9d1d9&hide_border=true&border_radius=15" />
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=deepti-96&layout=compact&theme=transparent&bg_color=0d1117&title_color=a855f7&text_color=c9d1d9&hide_border=true&border_radius=15&hide=jupyter%20notebook,shell&langs_count=8" />
 </p>
 
 <br/><br/>
