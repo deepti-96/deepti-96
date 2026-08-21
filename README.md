@@ -205,13 +205,6 @@
 
 <br/>
 
-<p>
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=deepti-96&show_icons=true&theme=transparent&bg_color=0d1117&title_color=a855f7&text_color=c9d1d9&icon_color=00e5ff&hide_border=true&border_radius=15&ring_color=00e5ff" />
-  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=deepti-96&layout=compact&theme=transparent&bg_color=0d1117&title_color=a855f7&text_color=c9d1d9&hide_border=true&border_radius=15&hide=jupyter%20notebook&langs_count=20&count_private=true" />
-</p>
-
-<br/><br/>
-
 <a href="https://github.com/deepti-96">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=deepti-96&theme=transparent&background=0d1117&ring=a855f7&fire=00e5ff&currStreakLabel=a855f7&sideLabels=c9d1d9&sideNums=a855f7&currStreakNum=c9d1d9&dates=555555&hide_border=true&border_radius=15" width="600" />
 </a>
