@@ -201,26 +201,6 @@
 
 <div align="center">
 
-### `/ STATS /`
-
-<br/>
-
-<a href="https://github.com/deepti-96">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=deepti-96&theme=transparent&background=0d1117&ring=a855f7&fire=00e5ff&currStreakLabel=a855f7&sideLabels=c9d1d9&sideNums=a855f7&currStreakNum=c9d1d9&dates=555555&hide_border=true&border_radius=15" width="600" />
-</a>
-
-<br/><br/>
-
-<a href="https://github.com/deepti-96">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=deepti-96&bg_color=0d1117&color=a855f7&line=00e5ff&point=a855f7&area=true&area_color=2d0057&hide_border=true&custom_title=Contribution%20Graph" width="95%" />
-</a>
-
-</div>
-
----
-
-<div align="center">
-
 ### `/ CONNECT/ `
 
 <br/>
