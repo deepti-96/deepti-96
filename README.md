@@ -1,4 +1,4 @@
-<div align="center"> 
+<div align="center">  
 
 [![](https://raw.githubusercontent.com/deepti-96/deepti-96/main/chat.svg)](https://www.linkedin.com/in/deepti-ravi-kumar/)
 
